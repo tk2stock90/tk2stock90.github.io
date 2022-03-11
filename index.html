@@ -1,13 +1,64 @@
 <!DOCTYPE html><html lang="en"><head>
-  <meta charset="utf-8">
-  <title>StockHanda</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<style>@import"https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap";*{padding:0;margin:0}body{font-family:Open Sans,Gothic A1,sans-serif;font-size:14px;color:#303030}body{background-color:#f9f9f9}</style><style>@import"https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap";*{padding:0;margin:0}body{font-family:Open Sans,Gothic A1,sans-serif;font-size:14px;color:#303030}body{background-color:#f9f9f9}</style><link rel="stylesheet" href="styles.756545d32dba4f18.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.756545d32dba4f18.css"></noscript><style ng-transition="serverApp"></style><style ng-transition="serverApp">[_nghost-sc113]{display:flex;align-items:center;justify-content:flex-end;flex-direction:column;flex-wrap:wrap;width:100%;height:100%;top:0;left:0;box-sizing:border-box;padding:24px;position:fixed;pointer-events:none;z-index:1004}[_nghost-sc113]     app-toast-message{pointer-events:all}[_nghost-sc113]     app-toast-message+app-toast-message{margin-top:12px}[_nghost-sc113] > *[_ngcontent-sc113]{flex:0 0 auto}</style><style ng-transition="serverApp">[_nghost-sc115]{width:100%;height:100%;top:0;left:0;position:fixed;display:block;z-index:1002;pointer-events:none}.sh-loading[_nghost-sc115]{pointer-events:all}app-loading-spinner[_ngcontent-sc115]{position:absolute;bottom:30px;right:30px}</style><style ng-transition="serverApp">[_nghost-sc116]{width:100%;height:100%;top:0;left:0;position:fixed;z-index:1003;pointer-events:none;display:block}.tk-popup-cover[_ngcontent-sc116]{top:0;left:0;width:100%;height:100%;position:fixed;pointer-events:all}.tk-popup-content[_ngcontent-sc116]{top:0;left:0;width:100%;height:100%;position:fixed;z-index:10;pointer-events:none}.tk-popup-content[_ngcontent-sc116]     *{pointer-events:all}</style><style ng-transition="serverApp">[_nghost-sc79]{display:flex;align-items:center;justify-content:center;flex-wrap:wrap}[_nghost-sc79] > *[_ngcontent-sc79]{flex:0 0 auto}svg[_ngcontent-sc79]{display:block}circle[_ngcontent-sc79]{fill:none;stroke-linecap:round}</style></head>
-<body>
-  <app-root _nghost-sc117="" ng-version="13.2.5"><!----><app-toast-outlet _ngcontent-sc117="" _nghost-sc113=""><!----></app-toast-outlet><app-modal-outlet _ngcontent-sc117="" _nghost-sc114=""><!----></app-modal-outlet><app-global-loading _ngcontent-sc117="" _nghost-sc115="" class="ng-tns-c115-0"><app-loading-spinner _ngcontent-sc115="" class="ng-tns-c115-0 ng-trigger ng-trigger-fading" _nghost-sc79="" style="opacity:0;"><svg _ngcontent-sc79="" style="transform:rotate(0deg);width:30px;height:30px;" viewBox="0 0 30 30"><circle _ngcontent-sc79="" cx="15" cy="15" r="12.5" stroke-dasharray="78.53981633974483" stroke-dashoffset="0" stroke-width="5" stroke="#009E87"></circle></svg></app-loading-spinner></app-global-loading><app-popup-outlet _ngcontent-sc117="" _nghost-sc116=""><!----><div _ngcontent-sc116="" class="tk-popup-content"><!----></div></app-popup-outlet></app-root>
-<script src="runtime.7d88f672dd38cb95.js" type="module"></script><script src="polyfills.981fba0210564f90.js" type="module"></script><script src="main.90aa6dca43e3432c.js" type="module"></script>
+    <meta charset="utf-8">
+    <title>주식 HANDA</title>
+    <base href="/">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+
+    <!-- 콘텐츠 제목 -->
+    <meta content="주식 HANDA" property="og:title">
+    <!-- 웹 페이지 URL -->
+    <meta content="https://tk2stock90.github.io" property="og:url">
+    <!-- 웹 페이지 타입 -->
+    <!-- https://ogp.me/#types 참고 -->
+    <!-- website, blog, music, video 등 -->
+    <meta content="website" property="og:type">
+    <!-- 미리보기 이미지 -->
+    <!-- 1200 x 627 -->
+    <meta content="/assets/images/thumbnail-og.png" property="og:image">
+    <!-- 웹 사이트명 -->
+    <meta content="주식 HANDA" property="og:site_name">
+    <!-- 웹 페이지 설명 -->
+    <meta content="주식 좀 HANDA 하는 사람들에게 필요한 매매 기록 일지" property="og:description">
+    <!-- 트위터 카드 종류 -->
+    <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started 참고 -->
+    <meta content="summary" name="twitter:card">
+    <!-- 콘텐츠 제목 -->
+    <meta content="주식 HANDA" name="twitter:title">
+    <!-- 웹 페이지 설명 -->
+    <meta content="주식 좀 HANDA 하는 사람들에게 필요한 매매 기록 일지" name="twitter:description">
+    <!-- 미리보기 이미지 -->
+    <!-- 120 x 120 -->
+    <meta content="/assets/images/thumbnail-og.png" name="twitter:image">
+    <meta content="주식, 매매일지, 주식한다, 개미, 동학개미, 서학개미, 주린이" name="keywords">
+    <meta content="tk2rush90" name="author">
+    <meta content="주식 좀 HANDA 하는 사람들에게 필요한 매매 기록 일지" name="description">
+
+    <base href="/">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+
+    <link href="/assets/images/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+    <link href="/assets/images/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="/assets/images/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="/assets/images/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="/assets/images/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="/assets/images/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="/assets/images/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="/assets/images/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="/assets/images/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/assets/images/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+    <link href="/assets/images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/assets/images/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="/assets/images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/assets/images/manifest.json" rel="manifest">
+    <meta content="#ffffff" name="msapplication-TileColor">
+    <meta content="/assets/images/ms-icon-144x144.png" name="msapplication-TileImage">
+    <meta content="#ffffff" name="theme-color">
+  <style>@import"https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap";*{padding:0;margin:0}body{font-family:Open Sans,Gothic A1,sans-serif;font-size:14px;color:#303030}body{background-color:#f9f9f9}</style><style>@import"https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap";*{padding:0;margin:0}body{font-family:Open Sans,Gothic A1,sans-serif;font-size:14px;color:#303030}body{background-color:#f9f9f9}</style><link rel="stylesheet" href="styles.756545d32dba4f18.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.756545d32dba4f18.css"></noscript><style ng-transition="serverApp"></style><style ng-transition="serverApp">[_nghost-sc113]{display:flex;align-items:center;justify-content:flex-end;flex-direction:column;flex-wrap:wrap;width:100%;height:100%;top:0;left:0;box-sizing:border-box;padding:24px;position:fixed;pointer-events:none;z-index:1004}[_nghost-sc113]     app-toast-message{pointer-events:all}[_nghost-sc113]     app-toast-message+app-toast-message{margin-top:12px}[_nghost-sc113] > *[_ngcontent-sc113]{flex:0 0 auto}</style><style ng-transition="serverApp">[_nghost-sc115]{width:100%;height:100%;top:0;left:0;position:fixed;display:block;z-index:1002;pointer-events:none}.sh-loading[_nghost-sc115]{pointer-events:all}app-loading-spinner[_ngcontent-sc115]{position:absolute;bottom:30px;right:30px}</style><style ng-transition="serverApp">[_nghost-sc116]{width:100%;height:100%;top:0;left:0;position:fixed;z-index:1003;pointer-events:none;display:block}.tk-popup-cover[_ngcontent-sc116]{top:0;left:0;width:100%;height:100%;position:fixed;pointer-events:all}.tk-popup-content[_ngcontent-sc116]{top:0;left:0;width:100%;height:100%;position:fixed;z-index:10;pointer-events:none}.tk-popup-content[_ngcontent-sc116]     *{pointer-events:all}</style><style ng-transition="serverApp">[_nghost-sc79]{display:flex;align-items:center;justify-content:center;flex-wrap:wrap}[_nghost-sc79] > *[_ngcontent-sc79]{flex:0 0 auto}svg[_ngcontent-sc79]{display:block}circle[_ngcontent-sc79]{fill:none;stroke-linecap:round}</style></head>
+  <body>
+    <app-root _nghost-sc117="" ng-version="13.2.5"><!----><app-toast-outlet _ngcontent-sc117="" _nghost-sc113=""><!----></app-toast-outlet><app-modal-outlet _ngcontent-sc117="" _nghost-sc114=""><!----></app-modal-outlet><app-global-loading _ngcontent-sc117="" _nghost-sc115="" class="ng-tns-c115-0"><app-loading-spinner _ngcontent-sc115="" class="ng-tns-c115-0 ng-trigger ng-trigger-fading" _nghost-sc79="" style="opacity:0;"><svg _ngcontent-sc79="" style="transform:rotate(0deg);width:30px;height:30px;" viewBox="0 0 30 30"><circle _ngcontent-sc79="" cx="15" cy="15" r="12.5" stroke-dasharray="78.53981633974483" stroke-dashoffset="0" stroke-width="5" stroke="#009E87"></circle></svg></app-loading-spinner></app-global-loading><app-popup-outlet _ngcontent-sc117="" _nghost-sc116=""><!----><div _ngcontent-sc116="" class="tk-popup-content"><!----></div></app-popup-outlet></app-root>
+  <script src="runtime.7d88f672dd38cb95.js" type="module"></script><script src="polyfills.981fba0210564f90.js" type="module"></script><script src="main.af7716f9b3f0c178.js" type="module"></script>
 
 
 </body><!-- This page was prerendered with Angular Universal --></html>
