@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68647c6a-388e-4075-9e59-89e26eec2d60" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handa/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handa/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handa/profits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handa/profits/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handa/trades/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handa/trades/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.original.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.original.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.af7716f9b3f0c178.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.80a7746b80cb4d5b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.d52e3664edc65c81.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.1012f37bef896d6a.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647004929346</updated>
-      <workItem from="1647004930565" duration="1385000" />
+      <workItem from="1647004930565" duration="2734000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1647005068676</created>
@@ -68,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647007025196</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix pagination">
+      <created>1647009566913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647009566913</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update">
+      <created>1647015120435</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647015120435</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +97,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="update seo and fix some issues." />
-    <option name="LAST_COMMIT_MESSAGE" value="update seo and fix some issues." />
+    <MESSAGE value="fix pagination" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
