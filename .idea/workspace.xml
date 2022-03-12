@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68647c6a-388e-4075-9e59-89e26eec2d60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main.6690ad14c712fcc4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handa/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handa/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handa/profits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handa/profits/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handa/trades/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handa/trades/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.original.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.original.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.d52e3664edc65c81.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.1012f37bef896d6a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.27fc71a2007c7acf.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647004929346</updated>
-      <workItem from="1647004930565" duration="2734000" />
+      <workItem from="1647004930565" duration="3369000" />
+      <workItem from="1647043276668" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1647005068676</created>
@@ -83,14 +85,25 @@
       <option name="project" value="LOCAL" />
       <updated>1647015120435</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update">
+      <created>1647017485925</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647017485925</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update">
+      <created>1647018345426</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647018345426</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
