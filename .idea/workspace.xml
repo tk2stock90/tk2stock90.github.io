@@ -2,14 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68647c6a-388e-4075-9e59-89e26eec2d60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.6690ad14c712fcc4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handa/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handa/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handa/profits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handa/profits/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handa/trades/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handa/trades/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.original.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.original.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.27fc71a2007c7acf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ms-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ms-icon-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ms-icon-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ms-icon-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/thumbnail-og.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handa/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handa/profits/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handa/trades/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.original.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.e2ca9418903165e2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polyfills.981fba0210564f90.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.7d88f672dd38cb95.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.756545d32dba4f18.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1647004929346</updated>
       <workItem from="1647004930565" duration="3369000" />
-      <workItem from="1647043276668" duration="608000" />
+      <workItem from="1647043276668" duration="1807000" />
+      <workItem from="1647094233044" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1647005068676</created>
@@ -99,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647018345426</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update">
+      <created>1647092892840</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647092892840</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update">
+      <created>1647093185113</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647093185113</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
